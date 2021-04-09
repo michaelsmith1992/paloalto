@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <BandImage msg="Welcome to Your Vue.js + TypeScript App" />
     <Music />
     <About />
     <Video />
@@ -12,7 +12,7 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import HelloWorld from "./components/HelloWorld.vue";
+import BandImage from "./components/BandImage.vue";
 import Header from "./components/Header.vue";
 import Music from "./components/Music.vue";
 import About from "./components/About.vue";
@@ -23,7 +23,7 @@ import Video from "./components/Video.vue";
 
 @Component({
   components: {
-    HelloWorld,
+    BandImage,
     Header,
     Music,
     About,

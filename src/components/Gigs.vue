@@ -27,7 +27,7 @@
           {{ gig.location }}
         </div>
         <div class="col-sm">
-          <a><u>Buy</u></a>
+          <a v-bind:href="gig.buyLink"><u>Buy</u></a>
         </div>
       </div>
     </div>
@@ -126,12 +126,19 @@ export default class Gigs extends Vue {
   align-self: center;
 }
 
+a {
+  color: inherit;
+}
+
 @media screen and (max-width: 600px) {
   .table-head {
     display: none;
   }
   .gig-info {
     font-size: x-large;
+  }
+  .gig-info {
+    margin-bottom: 2rem !important;
   }
 }
 </style>

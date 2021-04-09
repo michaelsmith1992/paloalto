@@ -6,7 +6,9 @@
     <a href="https://open.spotify.com/artist/15yKJxXGv3Z6qdu6sfkNQC?si=QDNktUxJTX2j9FT63Xnt0A" target="_blank" class="fa fa-spotify icon"></a>
     <a href="https://music.apple.com/ca/artist/palo-alto/1547949966" target="_blank" class="fa fa-apple icon"></a>
     <a href="https://www.youtube.com/channel/UCYLjhfxs21At0ZM3-UWs2RQ" target="_blank" class="fa fa-youtube icon"></a>
-    <p>paloaltoband@outlook.com</p>
+    <div class="row">
+    <a class="email" href="mailto:paloaltoband@outlook.com">paloaltoband@outlook.com</a>
+    </div>
   </div>
 </template>
 
@@ -35,6 +37,10 @@ export default class Footer extends Vue {}
   color: white;
   text-decoration: none;
     font-size: 3rem
+}
+
+.email {
+  font-size:medium !important;
 }
 .nav-link {
   font-weight: bold;

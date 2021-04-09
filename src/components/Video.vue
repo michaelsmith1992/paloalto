@@ -3,7 +3,7 @@
     <h2 class="heading">Video</h2>
     <div class="container">
       <div class="d-flex mt-5 mob-layout">
-        <div class="col-sm">
+        <div class="col-sm margin-b2">
           <iframe
             width="560"
             height="315"
@@ -47,6 +47,10 @@ export default class Video extends Vue {}
   iframe {
     width: fit-content;
     height: auto;
+  }
+  .margin-b2 {
+        margin-bottom: 2rem;
+
   }
 }
 </style>

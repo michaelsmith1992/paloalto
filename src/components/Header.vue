@@ -114,9 +114,7 @@ export default class Header extends Vue {
     padding-right: 0;
   }
 
-  .nav-link {
-    font-size: 12px;
-  }
+
 
   .logo-img {
     height: 3.5rem !important;

@@ -4,16 +4,14 @@
     <div class="container">
       <div class="d-flex mob-layout">
         <div class="col-sm">
-          <img class="cover-art" src="../assets/eotw-ida.png" />
-          <div class="music-btn">Stream</div>
-          <div class="music-btn">Buy</div>
-          <div class="music-btn">Watch Video</div>
+          <img class="cover-art" src="../assets/eotw-ida.jpg" />
+          <div class="music-btn"><a href="https://open.spotify.com/track/4ALvpri5PHp7KorgV62Dfm?si=59cb2c56cacb429a">Stream</a></div>
+          <div class="music-btn"><a href="https://www.youtube.com/watch?v=OKuwM-GKGv4">Watch Video</a></div>
         </div>
         <div class="col-sm">
           <img class="cover-art" src="../assets/easy-money-cover-2.jpg" />
-          <div class="music-btn">Stream</div>
-          <div class="music-btn">Buy</div>
-          <div class="music-btn">Watch Video</div>
+          <div class="music-btn"><a href="https://open.spotify.com/track/4ALvpri5PHp7KorgV62Dfm?si=59cb2c56cacb429a">Stream</a></div>
+          <div class="music-btn"><a href="https://www.youtube.com/watch?v=M891G9UALLU">Watch Video</a></div>
         </div>
       </div>
     </div>
@@ -29,8 +27,7 @@ export default class Music extends Vue {}
 
 <style>
 .cover-art {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
 padding-top: 3rem;
     padding-right: 3rem;
     padding-bottom: 0.5rem;
