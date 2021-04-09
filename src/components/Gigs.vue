@@ -16,7 +16,7 @@
           Tickets
         </div>
       </div>
-      <div class="row" v-for="gig in gigs" :key="gig.id">
+      <div class="row gig-info" v-for="gig in gigs" :key="gig.id">
         <div class="col-sm">
           {{ gig.date }}
         </div>
@@ -27,7 +27,7 @@
           {{ gig.location }}
         </div>
         <div class="col-sm">
-          <a>Buy</a>
+          <a><u>Buy</u></a>
         </div>
       </div>
     </div>
@@ -124,5 +124,14 @@ export default class Gigs extends Vue {
   margin-top: 10px;
   height: 3rem;
   align-self: center;
+}
+
+@media screen and (max-width: 600px) {
+  .table-head {
+    display: none;
+  }
+  .gig-info {
+    font-size: x-large;
+  }
 }
 </style>

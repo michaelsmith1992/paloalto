@@ -5,7 +5,7 @@
     >
       <a
         href="/"
-        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none logo-link"
       >
         <img class='logo-img' src='../assets/palologo.png'>
       </a>
@@ -56,5 +56,25 @@ export default class Header extends Vue {}
 
 .nav {
         align-self: center;
+}
+
+@media screen and (max-width: 600px) {
+.header {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-link {
+  font-size: 12px;
+}
+
+.logo-link {
+  margin-bottom: 0 !important;
+}
+.nav {
+  margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+}
 }
 </style>

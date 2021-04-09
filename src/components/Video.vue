@@ -42,4 +42,11 @@ export default class Video extends Vue {}
   color: rgb(224, 12, 214);
   font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+  iframe {
+    width: fit-content;
+    height: auto;
+  }
+}
 </style>

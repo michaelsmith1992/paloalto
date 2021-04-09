@@ -21,4 +21,10 @@ export default {
 html, body{
   background-color: black;
 }
+
+@media screen and (max-width: 600px) {
+  .d-flex {
+    display: block !important;
+  }
+}
 </style>

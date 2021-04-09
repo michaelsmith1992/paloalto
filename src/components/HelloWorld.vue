@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <img src='../assets/band.jpg' class='band-pic'>
+    <img src="../assets/band.jpg" class="band-pic" />
   </div>
 </template>
 
@@ -33,5 +33,11 @@ a {
 .band-pic {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .band-pic {
+    margin-top: 8rem;
+  }
 }
 </style>
