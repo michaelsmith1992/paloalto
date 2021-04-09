@@ -23,7 +23,7 @@ html, body{
 }
 
 @media screen and (max-width: 600px) {
-  .d-flex {
+  .mob-layout {
     display: block !important;
   }
 }

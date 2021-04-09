@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-5 gigs">
+  <div class="mt-5 gigs" id="gigs">
     <h2 class="heading">Gigs</h2>
     <div class="container gigs-table mt-5">
       <div class="row table-head">
@@ -50,28 +50,28 @@ export default class Gigs extends Vue {
           buyLink: "https://www.seetickets.com",
         },
         {
-          id: 1,
+          id: 2,
           venue: "The Castle",
           date: "18/12/1992",
           location: "Liverpool",
           buyLink: "https://www.seetickets.com",
         },
         {
-          id: 1,
+          id: 3,
           venue: "The Castle",
           date: "19/12/1992",
           location: "London",
           buyLink: "https://www.seetickets.com",
         },
         {
-          id: 1,
+          id: 4,
           venue: "The Castle",
           date: "20/12/1992",
           location: "Bristol",
           buyLink: "https://www.seetickets.com",
         },
         {
-          id: 1,
+          id: 5,
           venue: "The Castle",
           date: "21/12/1992",
           location: "Glasgow",

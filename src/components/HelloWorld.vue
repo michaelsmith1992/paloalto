@@ -15,19 +15,8 @@ export default class HelloWorld extends Vue {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.main {
+  padding-top: 5rem;
 }
 
 .band-pic {
@@ -36,8 +25,8 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-  .band-pic {
-    margin-top: 8rem;
-  }
+  .main {
+  padding-top: 5rem;
+}
 }
 </style>

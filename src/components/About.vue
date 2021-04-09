@@ -1,8 +1,8 @@
 <template>
-  <div class="mt-5 music">
+  <div class="mt-5" id="about">
     <h2 class="heading">About</h2>
     <div class="container">
-      <div class="d-flex mt-5">
+      <div class="d-flex mt-5 mob-layout">
         <div class="col-sm">
           <p class="text">
             Palo Alto are a 4-Piece Indie Disco band from the bordering city of

@@ -1,11 +1,11 @@
 <template>
   <div class="footer mt-5">
-    <a href="#" class="fa fa-facebook icon"></a>
-    <a href="#" class="fa fa-twitter icon"></a>
-    <a href="#" class="fa fa-instagram icon"></a>
-    <a href="#" class="fa fa-spotify icon"></a>
-    <a href="#" class="fa fa-apple icon"></a>
-    <a href="#" class="fa fa-youtube icon"></a>
+    <a href="https://www.facebook.com/paloaltoband" target="_blank" class="fa fa-facebook icon"></a>
+    <a href="https://twitter.com/paloalto_band" target="_blank" class="fa fa-twitter icon"></a>
+    <a href="https://www.instagram.com/paloalto_band/" target="_blank" class="fa fa-instagram icon"></a>
+    <a href="https://open.spotify.com/artist/15yKJxXGv3Z6qdu6sfkNQC?si=QDNktUxJTX2j9FT63Xnt0A" target="_blank" class="fa fa-spotify icon"></a>
+    <a href="https://music.apple.com/ca/artist/palo-alto/1547949966" target="_blank" class="fa fa-apple icon"></a>
+    <a href="https://www.youtube.com/channel/UCYLjhfxs21At0ZM3-UWs2RQ" target="_blank" class="fa fa-youtube icon"></a>
     <p>paloaltoband@outlook.com</p>
   </div>
 </template>

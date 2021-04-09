@@ -1,8 +1,8 @@
 <template>
-  <div class="mt-5 video">
+  <div class="mt-5 video" id="video">
     <h2 class="heading">Video</h2>
     <div class="container">
-      <div class="d-flex mt-5">
+      <div class="d-flex mt-5 mob-layout">
         <div class="col-sm">
           <iframe
             width="560"

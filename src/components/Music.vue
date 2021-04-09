@@ -1,8 +1,8 @@
 <template>
-  <div class="mt-5 music">
+  <div class="mt-5 music" id="music">
     <h2 class="heading">Music</h2>
     <div class="container">
-      <div class="d-flex">
+      <div class="d-flex mob-layout">
         <div class="col-sm">
           <img class="cover-art" src="../assets/eotw-ida.png" />
           <div class="music-btn">Stream</div>
